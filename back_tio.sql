@@ -18,6 +18,7 @@ CREATE TABLE CLIENTES (
     data_nascimento     DATE NOT NULL,
     cpf_cnpj           VARCHAR2(50) NOT NULL,
     email               VARCHAR2(100) NOT NULL,
+    senha               VARCHAR2(100) NOT NULL,
     telefone            VARCHAR2(50) NOT NULL,
     data_criacao       DATE NOT NULL,
     cep                 VARCHAR2(50) NOT NULL,
